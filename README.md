@@ -24,6 +24,13 @@ This combination provides a sequence inductive bias well suited to handwritten t
 
 ---
 
+## Visual Results
+<p align="center">
+  <img src="img/results.png" width="900">
+</p>
+
+---
+
 ## Results
 
 HTR-MB achieves state-of-the-art CER and WER on all three evaluated benchmarks.
