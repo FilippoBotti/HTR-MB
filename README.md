@@ -39,11 +39,12 @@ This combination provides a sequence inductive bias well suited to handwritten t
 
 HTR-MB achieves state-of-the-art CER and WER on all three evaluated benchmarks.
 
+
 | Dataset | CER ↓ | WER ↓ |
-|:|:|:|
-| **IAM** | **4.42** | **14.01** |
-| **READ2016** | **3.49** | **15.07** |
-| **LAM** | **2.69** | **7.15** |
+|---------|-------|-------|
+| IAM |4.42 | 14.01 |
+| READ2016 | 3.49 | 15.07 |
+| LAM | 2.69 | 7.15 |
 
 The final architecture consists of a **ResNet-18 feature extractor**, **4 Bidirectional Mamba blocks**, a **2-layer BiLSTM decoding head**, and **CTC loss**.
 
