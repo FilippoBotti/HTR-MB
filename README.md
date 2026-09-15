@@ -1,4 +1,4 @@
-# HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition
+# 📝 HTR-MB (Pattern Recognition)
 
 **Official PyTorch implementation of _HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition_, accepted at Pattern Recognition (2026).**
 
