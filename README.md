@@ -184,7 +184,7 @@ author = {Filippo Botti and Vittorio Bernuzzi and Tomaso Fontanini and Massimo B
 
 ## Acknowledgements
 
-This implementation builds upon ideas and publicly available code from **VAN**, **OrigamiNet**, and **HTR-VT**.
+This implementation builds upon ideas and publicly available code from [HTR-VT](https://github.com/Intellindust-AI-Lab/HTR-VT), [VAN](https://github.com/FactoDeepLearning/VerticalAttentionOCR) and [OrigamiNet](https://github.com/IntuitionMachines/OrigamiNet).  
 
 ## License
 
