@@ -2,8 +2,9 @@
 
 **Official PyTorch implementation of _HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition_, accepted at Pattern Recognition (2026).**
 
-**Filippo Botti, Vittorio Bernuzzi, Tomaso Fontanini, Massimo Bertozzi, Andrea Prati**  
-University of Parma, Italy
+*Filippo Botti, Vittorio Bernuzzi, Tomaso Fontanini, Massimo Bertozzi, Andrea Prati*
+University of Parma, Department of Engineering and Architecture
+Parma, Italy
 
 ---
 
