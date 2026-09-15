@@ -4,10 +4,13 @@
 
 Filippo Botti, Vittorio Bernuzzi, Tomaso Fontanini, Massimo Bertozzi, Andrea Prati
 
-University of Parma, Department of Engineering and Architecture
+University of Parma
+
+Department of Engineering and Architecture
+
 Parma, Italy
 
----
+
 
 ## Overview
 
@@ -24,28 +27,28 @@ This combination provides a sequence inductive bias well suited to handwritten t
   <img src="img/arch.png" width="900">
 </p>
 
----
+
 
 ## Visual Results
 <p align="center">
   <img src="img/results.png" width="900">
 </p>
 
----
+
 
 ## Results
 
 HTR-MB achieves state-of-the-art CER and WER on all three evaluated benchmarks.
 
 | Dataset | CER ↓ | WER ↓ |
-|:---|---:|---:|
+|:|:|:|
 | **IAM** | **4.42** | **14.01** |
 | **READ2016** | **3.49** | **15.07** |
 | **LAM** | **2.69** | **7.15** |
 
 The final architecture consists of a **ResNet-18 feature extractor**, **4 Bidirectional Mamba blocks**, a **2-layer BiLSTM decoding head**, and **CTC loss**.
 
----
+
 
 ## Installation
 
@@ -61,7 +64,7 @@ conda activate htr
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Pretrained Models
 
@@ -69,7 +72,7 @@ Pretrained checkpoints for the evaluated datasets are available here:
 
 **[Download checkpoints](https://univpr-my.sharepoint.com/:f:/g/personal/filippo_botti_unipr_it/IgAhBzs3RtayTIDAMb9BgsZdAcW-UHsTsbgmDFgSUdPVIoo?e=9siZr6)**
 
----
+
 
 ## Datasets
 
@@ -121,7 +124,7 @@ data/
     Download the dataset from here: https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=46
   </details>
 
----
+
 
 ## Training
 
@@ -146,7 +149,7 @@ Iterations   : 100,000
 
 Individual parameters can also be configured directly through `train.sh`.
 
----
+
 
 ## Repository Structure
 
@@ -162,7 +165,7 @@ HTR-MB/
 └── test.py        # Evaluation
 ```
 
----
+
 
 ## Citation
 
@@ -182,7 +185,7 @@ author = {Filippo Botti and Vittorio Bernuzzi and Tomaso Fontanini and Massimo B
 }
 ```
 
----
+
 
 ## Acknowledgements
 
