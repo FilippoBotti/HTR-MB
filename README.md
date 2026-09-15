@@ -1,6 +1,6 @@
 # HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition
 
-**Official PyTorch implementation of _HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition_, accepted in Pattern Recognition.**
+**Official PyTorch implementation of _HTR-MB: Combining Mamba and BiLSTM for Handwritten Text Recognition_, accepted at Pattern Recognition (2026).**
 
 **Filippo Botti, Vittorio Bernuzzi, Tomaso Fontanini, Massimo Bertozzi, Andrea Prati**  
 University of Parma, Italy
